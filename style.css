@@ -209,8 +209,8 @@ main {
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 1.4rem;
-    width: 180px;
-    height: 32px;
+    width: 190px;
+    height: 30px;
     padding: 8px;
     margin-top: 22px;
     background-color: var(--soft-orange);
@@ -259,11 +259,105 @@ main {
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 1.4rem;
-    width: 180px;
-    height: 32px;
+    width: 190px;
+    height: 30px;
     padding: 8px;
     margin-top: 22px;
     background-color: var(--soft-blue);
     border-radius: 8px;
+   
 }
+.main-product-detail {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    margin: 0 auto;
+    margin-top: 26px;
+    background-color: var(--warm-black);
+}
+.main-product-detail > span {
+    position: absolute;
+    width: 42px;
+    height: 25px;
+    top: calc(0% - 12.5px);
+    left: calc(50% - 20px);
+    background-image: url('./assets/icons/group16.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-detail-title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center; 
+}
+.product-detail-title h2 {
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: bold;
+    color: var(--just-white);
+    margin-bottom: 20px;
+}
+.product-detail-title p {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: #808080;
+    margin-bottom: 20px;
+}
+
+.product-detail--card {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 16px;
+    background-color: var(--black);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+.product-detail--card .icon-card {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-bottom: 10px;
+    background-image: url('./assets/icons/clock\ 1.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.product-detail--card .clock {
+    background-image: url('./assets/icons/clock\ 1.svg');
+}
+.product-detail--card .eyes {
+    background-image: url('./assets/icons/eye.svg');
+}
+.product-detail--card .dollar{
+    background-image: url('./assets/icons/dollar-sign\ 1.svg');
+}
+.product-detail--card .circle {
+    background-image: url('./assets/icons/check-circle\ 1.svg');
+}
+.product-detail--card .product-title {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: var(--just-white);
+}
+.product-detail--card .product-body {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #808080;
+}
+
 
